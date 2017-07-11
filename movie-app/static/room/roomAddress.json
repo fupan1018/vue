@@ -1,0 +1,18 @@
+{
+	"room":[
+		{
+			"id":"room01",
+			"address":"南海区桂澜北路28号",
+			"room":"万达影院01",
+			"price":28,
+			"distant":200
+		},
+		{
+			"id":"room02",
+			"address":"南海区桂澜北路29号",
+			"room":"万达影院02",
+			"price":29,
+			"distant":300
+		}
+	]
+}

@@ -1,0 +1,11 @@
+.html_body #cinemaMap {
+  width: 100%;
+}
+.html_body #cinemaMap #h5Point {
+  left: -100%;
+  top: -100%;
+  z-index: -1;
+}
+.html_body #cinemaMap #baiduMap {
+  width: 100%;
+}

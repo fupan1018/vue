@@ -1,0 +1,56 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.nd-b {
+  display: none;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-t {
+  vertical-align: top;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.text-h {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+}

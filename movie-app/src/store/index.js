@@ -1,0 +1,100 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+import axios from 'axios'
+
+Vue.use(Vuex);
+
+const store=new Vuex.Store({
+	state:{
+		cityName:'北京市',
+		cityShow:true,
+		orderShow:false,
+		selectShow:false,
+		loading:false,
+		discoverData:[],
+		filmData:[],
+		roomData:[],
+		orderData:[],
+		addressData:[]
+	},
+	getters:{
+		getCityName:state=>state.cityName,
+		getCityShow:state=>state.cityShow,//主页
+		getOrderShow:state=>state.orderShow,//订购
+		getSelectShow:state=>state.selectShow,//选择地址
+		getDiscoverList:state=>state.discoverData,
+		getAddressList:state=>state.addressData,
+		getLoading:state=>state.loading
+	},
+	mutations:{
+		//更改状态
+		setCityName(state,cityAddress){
+			state.cityName=cityAddress;
+		},
+		setCityShow(state,cityShow){
+			state.cityShow=cityShow;
+		},
+		setOrderShow(state,orderShow){
+			state.orderShow=orderShow;
+		},
+		setSelectShow(state,selectShow){
+			state.selectShow=selectShow;
+		},
+		setOrderDetail(state,orderData){
+			state.orderData=orderData;
+		},
+		setRoom(state,roomData){
+			state.roomData=roomData;
+		},
+		setFilm(state,filmData){
+			state.filmData=filmData;
+		},
+		setDiscover(state,discoverData){
+			state.discoverData=discoverData;
+		},
+		setPassAddress(state,addressData){
+			state.addressData=addressData;
+		},
+		setShowLoading(state){
+			state.loading=true;
+		},
+		setHideLoading(state){
+			state.loading=false;
+		}
+	},
+	actions:{
+		showLoading({commit,state}){
+			commit('setShowLoading')
+		},
+		hideLoading({commit,state}){
+			commit('setHideLoading')
+		},
+		getDiscover({commit,state}){
+			axios.get('./static/discover/filmList.json').then((res)=>{
+				commit('setDiscover',res.data.filmList)
+			})
+		},
+		getFilm({commit,state}){
+			axios.get('./static/film/filmList.json').then((res)=>{
+				commit('setFilm',res.data.filmList)
+			})
+		},
+		getRoom({commit,state}){
+			axios.get('./static/room/roomAddress.json').then((res)=>{
+				commit('setRoom',res.data.room)
+			})
+		},
+		getOrderDetail({commit,state}){
+			axios.get('./static/room/order.json').then((res)=>{
+				commit('setOrderDetail',res.data.order)
+			})
+		},
+		passAddress({commit,state}){
+			axios.get('./static/address/address.json').then((res)=>{
+				commit('setPassAddress',res.data.addressList)
+			})
+		}
+	}
+});
+export default store
+

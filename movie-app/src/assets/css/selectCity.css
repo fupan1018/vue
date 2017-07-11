@@ -1,0 +1,118 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.nd-b {
+  display: none;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-t {
+  vertical-align: top;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.text-h {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+}
+.html_body #selectCity .nowCity {
+  background: #fff;
+  width: 100%;
+  height: 0.53333333rem;
+  padding-left: 0.12rem;
+  font-size: 0.18666667rem;
+  line-height: 0.53333333rem;
+  color: #2b2b2b;
+  font-weight: bold;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.html_body #selectCity .locationBox {
+  width: 100%;
+  padding: 0.16666667rem 0rem 0.12rem 0.13333333rem;
+}
+.html_body #selectCity .locationBox .cityTitle {
+  line-height: 0.22666667rem;
+  font-size: 0.17333333rem;
+  color: #b2b2b2;
+  padding-bottom: 0.1rem;
+}
+.html_body #selectCity .locationBox .locationCity {
+  padding: 0rem 0.50666667rem 0rem 0.50666667rem;
+  color: #2b2b2b;
+  font-size: 0.17333333rem;
+  font-weight: bold;
+  line-height: 0.49333333rem;
+  background: #fff;
+  border-radius: 0.03333333rem;
+}
+.html_body #selectCity .locationBox .locationCity:active {
+  opacity: 0.8;
+}
+.html_body .cityList {
+  width: 100%;
+}
+.html_body .cityList dl {
+  width: 100%;
+}
+.html_body .cityList dl dt {
+  height: 0.41333333rem;
+  line-height: 0.41333333rem;
+  padding-left: 0.13333333rem;
+  color: #b2b2b2;
+  font-size: 0.17333333rem;
+  font-weight: normal;
+}
+.html_body .cityList dl dd {
+  border-bottom: 1px #e5e5e5 solid;
+  padding-left: 0.13333333rem;
+  height: 0.56666667rem;
+  line-height: 0.56rem;
+  background: #fff;
+  font-weight: bold;
+  font-size: 0.17333333rem;
+}
+.html_body .cityList dl dd:last-of-type {
+  border-bottom: none;
+}
+.html_body .cityList dl dd:active {
+  opacity: 0.8;
+}

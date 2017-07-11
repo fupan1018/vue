@@ -1,0 +1,22 @@
+{
+	"order":[
+		{
+			"OID":"01",
+			"imgURL":"./static/img/movieImg2.png",
+			"title":"殊死一战",
+			"timer":"2017-03-01  周三 14:20",
+			"row":"6号厅(8排11座; 8排12座)",
+			"count":"6",
+			"price":"66"
+		},
+		{
+			"OID":"02",
+			"imgURL":"./static/img/movieImg3.jpg",
+			"title":"赤道",
+			"timer":"2017-04-01  周四 15:20",
+			"row":"6号厅(6排16座; 6排16座)",
+			"count":"8",
+			"price":"88"
+		}
+	]
+}

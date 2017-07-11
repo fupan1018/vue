@@ -1,0 +1,20 @@
+{
+	"filmList":[
+		{
+			"OID":"01",
+			"score":"70%",
+			"scoreTxt":"7.0",
+			"imgURL":"./static/img/movieImg2.png",
+			"title":"殊死一战",
+			"director":"迪恩·德布洛斯",
+			"actor":"杰伊·巴鲁切尔，艾米莉卡·费雷拉",
+			"OID1":"02",
+			"score1":"80%",
+			"scoreTxt1":"8.0",
+			"imgURL1":"./static/img/movieImg3.jpg",
+			"title1":"赤道",
+			"director1":"德布洛斯",
+			"actor1":"巴鲁切尔"
+		}
+	]
+}

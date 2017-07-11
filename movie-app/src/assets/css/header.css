@@ -1,0 +1,130 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.nd-b {
+  display: none;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-t {
+  vertical-align: top;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.text-h {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+}
+#header {
+  width: 5rem;
+  height: 0.59333333rem;
+  padding: 0.09333333rem 0rem 0.09333333rem 0rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 1px #e5e5e5 solid;
+}
+#header.gray_bg {
+  background: #f8f8f8;
+}
+#header .linkBtn {
+  width: 0.68rem;
+  height: 0.4rem;
+}
+#header .linkBtn .closeBtn {
+  width: 0.21333333rem;
+  height: 0.4rem;
+  background: url(../img/header_close.png?v=zRZjjw7C65lh%2FJgBOyqfKQ%3D%3D) no-repeat center center;
+  background-size: 0.21333333rem 0.21333333rem;
+  margin: 0rem 0.26666667rem 0rem 0.2rem;
+}
+#header .linkBtn .backBtn {
+  width: 0.21333333rem;
+  height: 0.4rem;
+  background: url(../img/header_back.png?v=sR5uS5%2B%2FEQtEVa4vDt5gKA%3D%3D) no-repeat center center;
+  background-size: 0.15333333rem 0.26666667rem;
+  margin: 0rem 0.26666667rem 0rem 0.2rem;
+}
+#header .searchBox {
+  width: 3rem;
+  height: 0.4rem;
+  background: #fff;
+}
+#header .searchBox input {
+  background-color: #f6f6f6;
+  border-radius: 0.04rem;
+  width: 3rem;
+  height: 0.4rem;
+  padding: 0.08666667rem 0.1rem 0.08666667rem 0.44rem;
+  line-height: 0.22666667rem;
+  background-image: url(../img/head_search.png?v=0FMUK%2BmgAcbwqr%2Bi0qLhgA%3D%3D);
+  background-position: 0.13333333rem 0.11333333rem;
+  background-size: 0.18666667rem 0.18666667rem;
+  background-repeat: no-repeat;
+  font-size: 0.17333333rem;
+  color: #2b2b2b;
+}
+#header .cityBtn {
+  width: 0.85333333rem;
+  height: 0.4rem;
+  margin: 0rem 0.2rem 0rem 0.26666667rem;
+}
+#header .cityBtn .cityName {
+  width: 0.85333333rem;
+  padding-right: 0.28666667rem;
+  height: 0.4rem;
+  font-size: 0.18666667rem;
+  line-height: 0.4rem;
+  background-image: url(../img/arrowsDown.png?v=NipClh6Pw5xQpoPrbI0CCQ%3D%3D);
+  background-position: 0.69333333rem 0.16rem;
+  background-size: 0.14666667rem 0.08rem;
+  background-repeat: no-repeat;
+}
+#header .centerTitle {
+  width: 3.64rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.22666667rem;
+  color: #2b2b2b;
+}

@@ -1,0 +1,16 @@
+{
+	"addressList":[
+		{
+			"id":"B",
+			"addressName":"北京市"
+		},
+		{
+			"id":"G",
+			"addressName":"广州市"
+		},
+		{
+			"id":"S",
+			"addressName":"上海市"
+		}
+	]
+}

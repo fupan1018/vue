@@ -1,0 +1,22 @@
+{
+	"filmList":[
+		{
+			"OID":"01",
+			"address":"大兴区万达广场",
+			"detailAddress":"北京市大兴区某某街某某号",
+			"distance":"1.4km"
+		},
+		{
+			"OID":"02",
+			"address":"通州区万达广场",
+			"detailAddress":"北京市通州区某某街某某号",
+			"distance":"1.5km"
+		},
+		{
+			"OID":"03",
+			"address":"东城区万达广场",
+			"detailAddress":"北京市东城区某某街某某号",
+			"distance":"1.6km"
+		}
+	]
+}

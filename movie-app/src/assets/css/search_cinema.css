@@ -1,0 +1,145 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.nd-b {
+  display: none;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-t {
+  vertical-align: top;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.text-h {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+}
+.body_content {
+  padding: 0.58666667rem 0rem 0rem 0rem;
+}
+.body_content .search_btn {
+  margin: 0.13333333rem 0rem 0rem 0rem;
+  padding: 0rem 0.13333333rem 0.13333333rem 0.13333333rem;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.body_content .search_btn form div {
+  position: relative;
+}
+.body_content .search_btn form div select {
+  height: 0.46666667rem;
+  width: 0.86666667rem;
+  background: #f6f6f6;
+  margin-right: 0.13333333rem;
+  padding: 0.03333333rem 0.03333333rem 0.03333333rem 0.06666667rem;
+  border-radius: 6px;
+}
+.body_content .search_btn form div select option {
+  border: none;
+}
+.body_content .search_btn form div input {
+  display: inline-block;
+  width: 3.73333333rem;
+  height: 0.46666667rem;
+  background: #f6f6f6;
+  margin-right: 0.13333333rem;
+  padding-left: 0.13333333rem;
+  border-radius: 6px;
+}
+.body_content .search_btn form div input.searchTextInput {
+  width: 2.66666667rem;
+}
+.body_content .search_btn form div em {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 0.23333333rem;
+  height: 0.23333333rem;
+  background: url(../img/close.png?v=B3g732VaYlquX9JiB%2BOQrg%3D%3D) no-repeat center center;
+  background-size: 100% 100%;
+}
+.body_content .search_btn button {
+  width: 0.83333333rem;
+  height: 0.46666667rem;
+  color: #fff;
+  background: #dd2727;
+  border-radius: 6px;
+}
+.body_content #searchFilmList {
+  padding: 0rem 0.13333333rem 0rem 0.13333333rem;
+}
+.body_content .searchCinemaList {
+  width: 100%;
+  background: #fff;
+}
+.body_content .searchCinemaList .box {
+  width: 100%;
+  padding: 0.23333333rem 0.2rem 0.23333333rem 0.2rem;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.body_content .searchCinemaList .box dl {
+  width: 4.6rem;
+}
+.body_content .searchCinemaList .box dl dt {
+  line-height: 0.25333333rem;
+  font-size: 0.2rem;
+  color: #2b2b2b;
+  padding-bottom: 0.06666667rem;
+}
+.body_content .searchCinemaList .box dl dd {
+  color: #b2b2b2;
+}
+.body_content .searchCinemaList .box dl dd div {
+  font-size: 0.16rem;
+  line-height: 0.21333333rem;
+  padding-left: 0.21333333rem;
+  background: url(../img/addressIcon.png?v=trnS9iCIS7nBJpIn8v2akQ%3D%3D) no-repeat;
+  background-position: 0rem 0.01333333rem;
+  background-size: 0.14rem 0.18666667rem;
+  width: 3.73333333rem;
+}
+.body_content .searchCinemaList .box dl dd span {
+  width: 0.86666667rem;
+  font-size: 0.16rem;
+  line-height: 0.21333333rem;
+}

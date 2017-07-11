@@ -1,0 +1,162 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.nd-b {
+  display: none;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-t {
+  vertical-align: top;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.text-h {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+}
+.html_body #moviePhotos .photoList {
+  width: 100%;
+  background: #f6f6f6;
+  min-height: 100vh;
+}
+.html_body #moviePhotos .photoList .list .box {
+  width: 50%;
+  height: 1.68rem;
+  background: #fff;
+}
+.html_body #moviePhotos .photoList .list .box:nth-child(odd) {
+  padding: 0rem 0.01333333rem 0.01333333rem 0rem;
+}
+.html_body #moviePhotos .photoList .list .box:nth-child(even) {
+  padding: 0rem 0rem 0.01333333rem 0rem;
+}
+.html_body #moviePhotos .photoList .list .box .wrap {
+  width: 100%;
+  height: 1.66666667rem;
+}
+.html_body #moviePhotos .photoList .list .box .wrap .img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1.66666667rem;
+}
+.html_body #moviePhotos .photoList .loadingIcon {
+  width: 100%;
+  height: 0.4rem;
+  background: url(../img/load_gif.gif?v=bmbyqqTrOFOCYS36hZ2biw%3D%3D) no-repeat center center;
+  background-size: 0.21333333rem 0.21333333rem;
+}
+.html_body #moviePhotos .photoList .noPhoto {
+  width: 100%;
+  line-height: 0.53333333rem;
+  font-size: 0.2rem;
+  color: #2b2b2b;
+}
+.html_body #moviePhotos .fixBox {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: -1;
+  visibility: hidden;
+  left: 0;
+  top: 0.59333333rem;
+}
+.html_body #moviePhotos .fixBox .swiper-slide {
+  height: 93.325vh;
+}
+.html_body #moviePhotos .fixBox .swiper-slide .box {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.html_body #moviePhotos .fixBox .swiper-slide .box img {
+  max-width: 100%;
+  margin: 0 auto;
+  max-height: 5.33333333rem;
+}
+@media (min-width: 767px) {
+  .html_body #moviePhotos .fixBox .swiper-slide .box img {
+    max-height: 6.66666667rem;
+  }
+}
+.html_body #moviePhotos .fixBox .closeBtn {
+  top: 0.2rem;
+  right: 0.2rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  z-index: 12;
+  background: url(../img/closeWhite.png?v=bEPxywrhv0zP2BJcdLdzuQ%3D%3D) no-repeat center center;
+  background-size: 0.29333333rem 0.29333333rem;
+}
+.html_body #moviePhotos .fixBox .closeBtn:active {
+  opacity: 0.8;
+}
+.html_body #moviePhotos .fixBox .swiper-pagination {
+  color: #fff;
+  font-size: 0.2rem;
+  bottom: 0.21333333rem;
+  line-height: 0.25333333rem;
+  left: 0;
+  z-index: 12;
+}
+.html_body #moviePhotos .shadow {
+  width: 100%;
+  left: 0;
+  top: 0.59333333rem;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 8;
+  height: 100%;
+}
+.html_body #moviePhotos .loadIcon {
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  z-index: 12;
+  left: 50%;
+  top: 50%;
+  background: url(../img/load_gif.gif?v=bmbyqqTrOFOCYS36hZ2biw%3D%3D);
+  background-size: 0.33333333rem 0.33333333rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
