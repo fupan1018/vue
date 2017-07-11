@@ -21,7 +21,7 @@ PS:项目下载后，需要通过cnpm install 安装包文件，然后通过cnpm
 
 三、视图展示
 ----------------
-<img src="https://github.com/fupan1018/movie-app/blob/master/example/vue02.png"/>
+<img src="https://github.com/fupan1018/vue/movie-app/blob/master/example/vue02.png"/>
 	发现界面
 
 <img src="https://github.com/fupan1018/movie-app/blob/master/example/vue03.png"/>
