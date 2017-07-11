@@ -16,7 +16,7 @@ PS:项目下载后，需要通过cnpm install 安装包文件，然后通过cnpm
 
 二、项目结构
 ----------------
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue01.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue01.png"/>
 	项目是通过vue-cli直接生成脚手架工具，使用webpack中的模板快速搭建
 
 三、视图展示
@@ -24,19 +24,19 @@ PS:项目下载后，需要通过cnpm install 安装包文件，然后通过cnpm
 <img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue02.png"/>
 	发现界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue03.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue03.png"/>
 	电影界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue04.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue04.png"/>
 	影院界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue05.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue05.png"/>
 	订单界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue06.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue06.png"/>
 	选择城市界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue07.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue07.png"/>
 	选择场次界面
 
 四、代码探讨
@@ -45,20 +45,20 @@ PS:项目下载后，需要通过cnpm install 安装包文件，然后通过cnpm
 	可以如图所示，直接在首页（index.html）引入所需的样式表和js文件,但是要下载css-loader 和 style-loader，同时需要webpack（配置见下图）
 	注：不知道什么原因，在首页引入样式和js会报错，希望哪位大神能帮忙解决一下
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue09.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue09.png"/>
 	在项目中build/webpack.base.conf.js进行配置
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue10.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue10.png"/>
 	main.js的配置
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue11.png"/>
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue12.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue11.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue12.png"/>
 	App.vue界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue13.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue13.png"/>
 	discover.vue界面
 
-<img src="https://github.com/fupan1018/movie-app/blob/master/movie-app/example/vue14.png"/>
+<img src="https://github.com/fupan1018/vue/blob/master/movie-app/example/vue14.png"/>
 	loading动画组件
 
 五、总结
